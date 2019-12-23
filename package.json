@@ -1,0 +1,37 @@
+{
+  "name": "ts-wasmify",
+  "version": "0.0.2",
+  "description": "",
+  "bin":{
+    "ts-wasmify": "./lib/index.js"
+  },
+  "main": "lib/aot.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaroslawPokropinski/ts-wasmify.git"
+  },
+  "author": "JaroslawPokropinski",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JaroslawPokropinski/ts-wasmify/issues"
+  },
+  "homepage": "https://github.com/JaroslawPokropinski/ts-wasmify#readme",
+  "devDependencies": {
+    "@types/node": "^13.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "eslint-plugin-ts-wasmify": "0.0.1"
+  }
+}
