@@ -1,13 +1,14 @@
 {
   "name": "ts-wasmify",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "",
   "bin":{
-    "ts-wasmify": "./lib/index.js"
+    "ts-wasmify": "./bin/ts-wasmify"
   },
   "main": "lib/aot.js",
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "bin/**/*"
   ],
   "scripts": {
     "build": "tsc -d",
@@ -32,6 +33,6 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "eslint-plugin-ts-wasmify": "0.0.1"
+    "eslint-plugin-ts-wasmify": "^0.0.4"
   }
 }
